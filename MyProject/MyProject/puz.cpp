@@ -1,6 +1,6 @@
 #include "head.h"
 
-void PuzSort(char *mas, int n)
+void PuzSort(char *mas, int n)///coment function PuzSort
 {
 	int i,j;
 	char c;

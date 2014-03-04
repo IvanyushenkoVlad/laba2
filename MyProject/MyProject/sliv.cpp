@@ -1,6 +1,6 @@
 #include "head.h"
 
-void Merge(char *A, int first, int last)
+void Merge(char *A, int first, int last)///coment function Merge
 {
 	int middle, start, final, j;
 	char *mas=new char[last];
@@ -26,7 +26,7 @@ void Merge(char *A, int first, int last)
 	delete[]mas;
 };
 //рекурсивная процедура сортировки
-void MergeSort(char *A, int first, int last)
+void MergeSort(char *A, int first, int last)///coment function MergeSort
 {
 	{
 		if (first<last)
